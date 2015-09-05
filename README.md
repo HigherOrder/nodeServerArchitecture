@@ -1,7 +1,8 @@
 API
 ===
 
-API server providing endpoints to our clients.
+Nodejs based API server providing REST endpoints to our clients.
+
 Modular architechture ensures maximum code maintainability.
 
 All code is unit tested using Sinon, Mocha.
