@@ -14,16 +14,19 @@ We use GULP for automation and code coverage reports
 
 * 0.1 Initial release, API skeleton.
 
-1. Available Gulp tasks:
+1. Install following before running Gulp tasks
 
-   >```gulp```: Start local server.
-   >
-   >
+    > sudo npm install -g gulp
+    >
+    > sudo npm install -g mocha
+
+2. Available Gulp tasks:
+
    >```gulp test```: Run unit tests with coverage report.
    >
    >
    >```gulp t```: Run unit tests without coverage report.
    >
-   > mocha schema/todo_test.js --reporter spec
-   > gulp test# nodeServerArchitecture
+   > 
+   > ```Run tests in a single file ```: mocha schema/todo_test.js --reporter spec
    
