@@ -6,9 +6,9 @@ Modular architechture ensures maximum code maintainability.
 
 All code is unit tested using Sinon, Mocha.
 
-We try to have more than 95% code coverage for our service layer.
+We try to have more than 97% code coverage for our service layer.
 
-We use GULP for automation
+We use GULP for automation and code coverage reports
 
 ## Release History
 
@@ -26,3 +26,4 @@ We use GULP for automation
    >
    > mocha schema/todo_test.js --reporter spec
    > gulp test# nodeServerArchitecture
+   
